@@ -1,0 +1,17 @@
+{
+    "name": "library-web-app-backend",
+    "version": "1.0.0",
+    "description": "Backend for Library Web App",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "addDummyData": "node addDummyData.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "firebase-admin": "^9.10.0"
+    }
+  }
+  
